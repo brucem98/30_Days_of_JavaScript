@@ -2,7 +2,7 @@
 
 const createCounter = (n) => {
   return function counter() {
-    return n++;
+    return n++; // hidden state
   };
 };
 
