@@ -1,3 +1,5 @@
+// https://leetcode.com/problems/timeout-cancellation/submissions/?envType=study-plan-v2&envId=30-days-of-javascript
+
 const cancellable = function(fn, args, t) {
     const timeoutId = setTimeout(() => {
         fn(...args)
